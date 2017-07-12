@@ -1,0 +1,265 @@
+Welcome to the Game of Deal or NoDeal
+--------------------------------------
+
+      0.01								1000
+         1		0	1	2	3	4		5000
+         5								10000
+        10		5	6	7	8	9		25000
+        25								50000
+        50		10	11	12	13	14		75000
+        75								100000
+       100		15	16	17	18	19		200000
+       200								300000
+       300		20	21	22	23	24		400000
+       400								500000
+       500		25						750000
+       750								1e+06
+Unopened Suitcases: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 
+Opened Suitcases: 
+
+Suitcase: 4 Selected by the player
+
+      0.01								1000
+         1		0	1	2	3	|4| 	5000
+         5								10000
+        10		5	6	7	8	9		25000
+        25								50000
+        50		10	11	12	13	14		75000
+        75								100000
+       100		15	16	17	18	19		200000
+       200								300000
+       300		20	21	22	23	24		400000
+       400								500000
+       500		25						750000
+       750								1e+06
+Unopened Suitcases: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 
+Opened Suitcases: 
+
+
+Round 1 pick: 6 suitcases
+Suitcase Opened: 2 Amount: 100
+Suitcase Opened: 13 Amount: 5
+Suitcase Opened: 1 Amount: 100000
+Suitcase Opened: 6 Amount: 400
+Suitcase Opened: 7 Amount: 25000
+Suitcase Opened: 12 Amount: 750
+
+      0.01								1000
+         1		0	X	X	3	|4| 	5000
+        (5)								10000
+        10		5	X	X	8	9		(25000)
+        25								50000
+        50		10	11	X	X	14		75000
+        75								(100000)
+      (100)		15	16	17	18	19		200000
+       200								300000
+       300		20	21	22	23	24		400000
+      (400)								500000
+       500		25						750000
+      (750)								1e+06
+Unopened Suitcases: 0 3 4 5 8 9 10 11 14 15 16 17 18 19 20 21 22 23 24 25 
+Opened Suitcases: 1 2 6 7 12 13 
+5000 + 200 + 1e+06 + 1000 + 500000 + 300 + 50 + 500 + 400000 + 200000 + 25 + 10000 + 300000 + 75 + 10 + 750000 + 1 + 75000 + 50000 + Total = 3292161Closed Suitcases 19 
+
+Banker offer is : 173271
+
+
+
+Round 2 pick: 5 suitcases
+Suitcase Opened: 3 Amount: 200
+Suitcase Opened: 14 Amount: 500
+Suitcase Opened: 9 Amount: 500000
+Suitcase Opened: 17 Amount: 25
+Suitcase Opened: 15 Amount: 400000
+
+      0.01								1000
+         1		0	X	X	X	|4| 	5000
+        (5)								10000
+        10		5	X	X	8	X		(25000)
+       (25)								50000
+        50		10	11	X	X	X		75000
+        75								(100000)
+      (100)		X	16	X	18	19		200000
+      (200)								300000
+       300		20	21	22	23	24		(400000)
+      (400)								(500000)
+      (500)		25						750000
+      (750)								1e+06
+Unopened Suitcases: 0 4 5 8 10 11 16 18 19 20 21 22 23 24 25 
+Opened Suitcases: 1 2 3 6 7 9 12 13 14 15 17 
+5000 + 1e+06 + 1000 + 300 + 50 + 200000 + 10000 + 300000 + 75 + 10 + 750000 + 1 + 75000 + 50000 + Total = 2391436Closed Suitcases 14 
+
+Banker offer is : 170816
+
+
+
+Round 3 pick: 4 suitcases
+Suitcase Opened: 0 Amount: 5000
+Suitcase Opened: 5 Amount: 1e+06
+Suitcase Opened: 8 Amount: 1000
+Suitcase Opened: 10 Amount: 300
+
+      0.01								(1000)
+         1		X	X	X	X	|4| 	(5000)
+        (5)								10000
+        10		X	X	X	X	X		(25000)
+       (25)								50000
+        50		X	11	X	X	X		75000
+        75								(100000)
+      (100)		X	16	X	18	19		200000
+      (200)								300000
+      (300)		20	21	22	23	24		(400000)
+      (400)								(500000)
+      (500)		25						750000
+      (750)								(1e+06)
+Unopened Suitcases: 4 11 16 18 19 20 21 22 23 24 25 
+Opened Suitcases: 0 1 2 3 5 6 7 8 9 10 12 13 14 15 17 
+50 + 200000 + 10000 + 300000 + 75 + 10 + 750000 + 1 + 75000 + 50000 + Total = 1385136Closed Suitcases 10 
+
+Banker offer is : 138513
+
+
+
+Round 4 pick: 3 suitcases
+Suitcase Opened: 11 Amount: 50
+Suitcase Opened: 16 Amount: 200000
+Suitcase Opened: 18 Amount: 10000
+
+      0.01								(1000)
+         1		X	X	X	X	|4| 	(5000)
+        (5)								(10000)
+        10		X	X	X	X	X		(25000)
+       (25)								50000
+       (50)		X	X	X	X	X		75000
+        75								(100000)
+      (100)		X	X	X	X	19		(200000)
+      (200)								300000
+      (300)		20	21	22	23	24		(400000)
+      (400)								(500000)
+      (500)		25						750000
+      (750)								(1e+06)
+Unopened Suitcases: 4 19 20 21 22 23 24 25 
+Opened Suitcases: 0 1 2 3 5 6 7 8 9 10 11 12 13 14 15 16 17 18 
+300000 + 75 + 10 + 750000 + 1 + 75000 + 50000 + Total = 1175086Closed Suitcases 7 
+
+Banker offer is : 167869
+
+
+
+Round 5 pick: 2 suitcases
+Suitcase Opened: 19 Amount: 300000
+Suitcase Opened: 20 Amount: 75
+
+      0.01								(1000)
+         1		X	X	X	X	|4| 	(5000)
+        (5)								(10000)
+        10		X	X	X	X	X		(25000)
+       (25)								50000
+       (50)		X	X	X	X	X		75000
+       (75)								(100000)
+      (100)		X	X	X	X	X		(200000)
+      (200)								(300000)
+      (300)		X	21	22	23	24		(400000)
+      (400)								(500000)
+      (500)		25						750000
+      (750)								(1e+06)
+Unopened Suitcases: 4 21 22 23 24 25 
+Opened Suitcases: 0 1 2 3 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+10 + 750000 + 1 + 75000 + 50000 + Total = 875011Closed Suitcases 5 
+
+Banker offer is : 175002
+
+
+
+Round 6 pick: 1 suitcases
+Suitcase Opened: 21 Amount: 10
+
+      0.01								(1000)
+         1		X	X	X	X	|4| 	(5000)
+        (5)								(10000)
+       (10)		X	X	X	X	X		(25000)
+       (25)								50000
+       (50)		X	X	X	X	X		75000
+       (75)								(100000)
+      (100)		X	X	X	X	X		(200000)
+      (200)								(300000)
+      (300)		X	X	22	23	24		(400000)
+      (400)								(500000)
+      (500)		25						750000
+      (750)								(1e+06)
+Unopened Suitcases: 4 22 23 24 25 
+Opened Suitcases: 0 1 2 3 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 
+750000 + 1 + 75000 + 50000 + Total = 875001Closed Suitcases 4 
+
+Banker offer is : 218750
+Remaining: 4 22 23 24 25 Suitcase Opened: 22 Amount: 750000
+
+      0.01								(1000)
+         1		X	X	X	X	|4| 	(5000)
+        (5)								(10000)
+       (10)		X	X	X	X	X		(25000)
+       (25)								50000
+       (50)		X	X	X	X	X		75000
+       (75)								(100000)
+      (100)		X	X	X	X	X		(200000)
+      (200)								(300000)
+      (300)		X	X	X	23	24		(400000)
+      (400)								(500000)
+      (500)		25						(750000)
+      (750)								(1e+06)
+Unopened Suitcases: 4 23 24 25 
+Opened Suitcases: 0 1 2 3 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 
+1 + 75000 + 50000 + Total = 125001Closed Suitcases 3 
+
+Banker offer is : 41667
+Suitcase Opened: 23 Amount: 1
+
+      0.01								(1000)
+        (1)		X	X	X	X	|4| 	(5000)
+        (5)								(10000)
+       (10)		X	X	X	X	X		(25000)
+       (25)								50000
+       (50)		X	X	X	X	X		75000
+       (75)								(100000)
+      (100)		X	X	X	X	X		(200000)
+      (200)								(300000)
+      (300)		X	X	X	X	24		(400000)
+      (400)								(500000)
+      (500)		25						(750000)
+      (750)								(1e+06)
+Unopened Suitcases: 4 24 25 
+Opened Suitcases: 0 1 2 3 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 
+75000 + 50000 + Total = 125000Closed Suitcases 2 
+
+Banker offer is : 62500
+Suitcase Opened: 24 Amount: 75000
+
+      0.01								(1000)
+        (1)		X	X	X	X	|4| 	(5000)
+        (5)								(10000)
+       (10)		X	X	X	X	X		(25000)
+       (25)								50000
+       (50)		X	X	X	X	X		(75000)
+       (75)								(100000)
+      (100)		X	X	X	X	X		(200000)
+      (200)								(300000)
+      (300)		X	X	X	X	X		(400000)
+      (400)								(500000)
+      (500)		25						(750000)
+      (750)								(1e+06)
+Unopened Suitcases: 4 25 
+Opened Suitcases: 0 1 2 3 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 
+50000 + Total = 50000Closed Suitcases 1 
+
+Banker offer is : 50000
+Amount selected in PlayerSuitCase is : 0
+
+
+
+
+
+
+
+
+You got poor after playing 1 games 
+Program ended with exit code: 0
